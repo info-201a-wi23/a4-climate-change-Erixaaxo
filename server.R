@@ -21,8 +21,3 @@ server <- function(input, output) {
     
   })
 }
-# which country has the highest and lowest CO2 cumulative
-
-least_CO2 <- CO2_df %>% group_by(country) %>% summarise("totalCO" = sum(cumulative_co2)) %>%top_n(-1) %>% pull(country)
-most_CO2 <- CO2_df %>% group_by(country) %>% summarise("totalCO" = sum(cumulative_co2)) %>% top_n(1) %>% pull(country)
-

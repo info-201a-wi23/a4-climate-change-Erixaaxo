@@ -1,1 +1,5 @@
+## Introduction
 
+This is a condensed analysis for the dataframe on CO2 and Greenhouse Gas emissions created by *Our World in Data*. The data was collected by Our World in Data and Pablo Arosado. It was created to show how harmful and fast the emission rates are changing and skyrocketing, killing and affecting our enviorment. 
+
+I have chosen to analysis all of the cumulative CO2 emissions throughout the years since 1750 to current time. I chose this because I wanted to analysis how much has changed from when technology was not around to its current developement stages and how it affects our world. I pulled values such as the least and most CO2 emitted countries while finding the average we emitt per year. 
