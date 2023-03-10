@@ -4,5 +4,6 @@ source("ui.R")
 source("server.R")
 library(rsconnect)
 library("bslib")
+library("markdown")
 
 shinyApp(ui = ui, server = server)
