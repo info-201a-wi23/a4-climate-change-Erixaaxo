@@ -18,7 +18,7 @@ bar_plot <- sidebarPanel(
   selectInput(
     inputId = "cat_user",
     label = "Countries",
-    choices = CO2_df$country,
+    choices = unique(CO2_df$country),
     selected = "World",
     multiple = TRUE),
 

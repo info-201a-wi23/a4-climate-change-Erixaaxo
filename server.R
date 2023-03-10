@@ -26,7 +26,3 @@ server <- function(input, output) {
 least_CO2 <- CO2_df %>% group_by(country) %>% summarise("totalCO" = sum(cumulative_co2)) %>%top_n(-1) %>% pull(country)
 most_CO2 <- CO2_df %>% group_by(country) %>% summarise("totalCO" = sum(cumulative_co2)) %>% top_n(1) %>% pull(country)
 
-# average CO2
-average_co2 <- CO2_df %>% group_by(country) %>% summarise("average" = mean(total_co2)) %>% pull(average)
-
-
